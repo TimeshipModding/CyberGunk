@@ -20,6 +20,10 @@ repositories {
         name = "Jared's maven"
         url = "https://maven.blamejared.com/"
     }
+
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -85,6 +89,9 @@ dependencies {
     compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+
+    // Pehkui Dependency
+    implementation "curse.maven:pehkui-319596:${pehkui_version}"
 }
 
 // gradle.properties entries
@@ -96,6 +103,7 @@ tasks.withType(ProcessResources).configureEach {
             neo_version_range      : neo_version_range,
             loader_version_range   : loader_version_range,
             jei_version            : jei_version,
+            pehkui_version         : pehkui_version,
             mc_version             : mc_version,
             mod_id                 : mod_id,
             mod_name               : mod_name,
