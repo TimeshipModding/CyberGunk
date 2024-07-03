@@ -20,5 +20,6 @@ public class CyberGunkTab {
             .icon(() -> new ItemStack(Blocks.BEACON))
             .displayItems((parameters, pOutput) -> {
                 pOutput.accept(ModItems.STEEL_INGOT);
+                pOutput.accept(ModItems.SCRAP);
             }).build());
 }
