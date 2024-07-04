@@ -19,6 +19,8 @@ public class DataItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // Items
+        simpleItem(SCRAP);
+        simpleItem(STEEL_INGOT);
     }
 
     private ItemModelBuilder simpleItem(DeferredItem<Item> item) {

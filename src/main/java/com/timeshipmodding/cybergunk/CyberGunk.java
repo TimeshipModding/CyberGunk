@@ -4,6 +4,7 @@ import com.timeshipmodding.cybergunk.content.block.registries.ModBlocks;
 import com.timeshipmodding.cybergunk.content.creativetab.CyberGunkTab;
 import com.timeshipmodding.cybergunk.content.creativetab.ImplantTab;
 import com.timeshipmodding.cybergunk.content.item.registries.ModItems;
+import com.timeshipmodding.cybergunk.event.DataGeneration;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 
@@ -52,5 +53,7 @@ public class CyberGunk
 
         CyberGunkTab.CREATIVE_MODE_TABS.register(modEventBus);
         ImplantTab.CREATIVE_MODE_TABS.register(modEventBus);
+
+        modEventBus.addListener(DataGeneration::gatherdata);
     }
 }
