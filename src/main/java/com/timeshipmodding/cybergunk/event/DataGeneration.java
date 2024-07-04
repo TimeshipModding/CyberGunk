@@ -2,6 +2,7 @@ package com.timeshipmodding.cybergunk.event;
 
 import com.timeshipmodding.cybergunk.datagen.DataBlockStates;
 import com.timeshipmodding.cybergunk.datagen.DataItemModels;
+import com.timeshipmodding.cybergunk.datagen.DataRecipes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -18,6 +19,8 @@ public class DataGeneration {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
+
+        generator.addProvider(event.includeServer(), new DataRecipes(packOutput, lookupProvider));
 
         generator.addProvider(event.includeClient(), new DataBlockStates(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new DataItemModels(packOutput, existingFileHelper));
