@@ -17,7 +17,7 @@ public class DataBlockStates extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         // Block with Item
-
+        
     }
 
     private void blockWithItem(DeferredBlock<Block> blockRegistryObject) {
