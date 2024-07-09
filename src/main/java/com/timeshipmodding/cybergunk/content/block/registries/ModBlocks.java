@@ -5,6 +5,8 @@ import com.timeshipmodding.cybergunk.content.item.registries.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.IronBarsBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -13,6 +15,9 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CyberGunk.MODID);
+
+    // Blocks
+
 
     // Register Methods
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

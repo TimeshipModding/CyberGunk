@@ -1,1 +1,7 @@
-// 1.21	2024-07-04T13:04:41.1091706	Block States: cybergunk
+// 1.21	2024-07-08T19:04:32.2382875	Block States: cybergunk
+f73baf4869de6a01648f4ff2edd6bb06021680f1 assets/cybergunk/blockstates/steel_bars.json
+e9b9daf01bb95cea8e84256c661eed3bfddadf5e assets/cybergunk/models/block/steel_bars_noside.json
+dd4f79d8b2f8e317282a0e79b4c0ebcdf9abc61f assets/cybergunk/models/block/steel_bars_noside_alt.json
+4d7c9c3fc27244e22832f3504e727a7039a3eda8 assets/cybergunk/models/block/steel_bars_post.json
+b345097bfc9f25b770a9f829e188a1e8a40ca09b assets/cybergunk/models/block/steel_bars_side.json
+439860681a2882cfa7863f1fcc2e2ec88c1fbc0c assets/cybergunk/models/block/steel_bars_side_alt.json
