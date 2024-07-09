@@ -17,6 +17,6 @@ public class ImplantTab {
             .title(Component.translatable("creativemodetab.cybergunk.cybergunk_tab"))
             .icon(STEEL_INGOT::toStack)
             .displayItems((parameters, pOutput) -> {
-
+                pOutput.accept(SANDEVISTAN);
             }).build());
 }
