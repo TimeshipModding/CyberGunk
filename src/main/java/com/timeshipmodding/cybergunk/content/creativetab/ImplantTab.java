@@ -10,7 +10,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import static com.timeshipmodding.cybergunk.content.item.registries.ModItems.*;
 import static com.timeshipmodding.cybergunk.content.block.registries.ModBlocks.*;
 
-
 public class ImplantTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CyberGunk.MODID);
 
