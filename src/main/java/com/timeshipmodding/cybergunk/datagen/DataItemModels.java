@@ -11,7 +11,6 @@ import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
 import static com.timeshipmodding.cybergunk.content.item.registries.ModItems.*;
 
