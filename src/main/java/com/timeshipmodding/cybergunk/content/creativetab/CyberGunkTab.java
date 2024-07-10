@@ -13,8 +13,8 @@ import static com.timeshipmodding.cybergunk.content.block.registries.ModBlocks.*
 public class CyberGunkTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CyberGunk.MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> IMPLANT_TAB = CREATIVE_MODE_TABS.register("implant_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("creativemodetab.cybergunk.implant_tab"))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CYBERGUNK_TAB = CREATIVE_MODE_TABS.register("cybergunk_tab", () -> CreativeModeTab.builder()
+            .title(Component.translatable("creativemodetab.cybergunk.cybergunk_tab"))
             .icon(STEEL_INGOT::toStack)
             .displayItems((parameters, pOutput) -> {
                 pOutput.accept(STEEL_INGOT);
