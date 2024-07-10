@@ -9,7 +9,7 @@
       "parent": "cybergunk:item/basic_optics_2d"
     },
     "ground": {
-      "parent": "cybergunk:item/basic_optics_2d"
+      "parent": "cybergunk:item/basic_optics_3d"
     },
     "fixed": {
       "parent": "cybergunk:item/basic_optics_2d"

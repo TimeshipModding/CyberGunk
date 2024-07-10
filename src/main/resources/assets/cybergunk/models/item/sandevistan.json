@@ -9,7 +9,7 @@
       "parent": "cybergunk:item/sandevistan_2d"
     },
     "ground": {
-      "parent": "cybergunk:item/sandevistan_2d"
+      "parent": "cybergunk:item/sandevistan_3d"
     },
     "fixed": {
       "parent": "cybergunk:item/sandevistan_2d"
