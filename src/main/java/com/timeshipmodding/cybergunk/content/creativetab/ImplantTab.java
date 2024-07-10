@@ -18,5 +18,6 @@ public class ImplantTab {
             .icon(STEEL_INGOT::toStack)
             .displayItems((parameters, pOutput) -> {
                 pOutput.accept(SANDEVISTAN);
+                pOutput.accept(BASIC_OPTICS);
             }).build());
 }

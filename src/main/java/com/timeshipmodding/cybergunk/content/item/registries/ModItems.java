@@ -11,5 +11,7 @@ public class ModItems {
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SCRAP = ITEMS.register("scrap", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SANDEVISTAN = ITEMS.register("sandevistan", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BASIC_OPTICS = ITEMS.register("basic_optics", () -> new Item(new Item.Properties()));
+
 }
 
