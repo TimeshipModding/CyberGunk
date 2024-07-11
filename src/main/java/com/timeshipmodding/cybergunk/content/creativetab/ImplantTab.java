@@ -19,5 +19,6 @@ public static final DeferredHolder<CreativeModeTab, CreativeModeTab> IMPLANT_TAB
         .displayItems((parameters, pOutput) -> {
             pOutput.accept(SANDEVISTAN);
             pOutput.accept(BASIC_OPTICS);
+            pOutput.accept(ENFORCED_TENDONS);
         }).build());
 }
